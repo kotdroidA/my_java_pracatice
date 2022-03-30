@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2196F3"
+    >
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:background="#5EFFFFFF"
+android:padding="20dp"
+    >
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Two-step verification"
+    android:textColor="#000000"
+    android:drawableStart="@drawable/ic_left_arrow"
+    android:textSize="18sp"
+    android:drawablePadding="16dp"
+    android:textStyle="normal"
+    android:layout_marginStart="16dp"
+
+    />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/circle_white_solid_bg"
+        >
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:text="***"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:textColor="#FA76FF3B"
+            android:background="@drawable/rounded_solid_white_bg"
+            />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:textStyle="italic"
+        android:text="For added security.enable two-step verification.which will reqPIN when registering your phone number with whatApp again"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENABLE"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="250dp"
+
+
+
+        />
+
+
+
+
+</LinearLayout>

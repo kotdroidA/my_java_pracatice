@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:id="@+id/etCurrentP"
+        android:layout_height="wrap_content"
+        android:hint="Enter Current Population "
+        android:inputType="number"
+        android:layout_margin="16dp"
+        >
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/et1BabyInSec"
+        android:hint="In how many sec 1 baby borns ?"
+        android:inputType="number"
+        android:layout_margin="16dp"
+        >
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/et1DeathInSec"
+        android:hint="In how many sec 1 death occurs ?"
+        android:inputType="number"
+        android:layout_margin="16dp"
+        >
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/et1MigrantInSec"
+        android:hint="In how many sec 1 migrant ?"
+        android:inputType="number"
+        android:layout_margin="16dp"
+        >
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/etPeriod"
+        android:hint="please period in years.?"
+        android:inputType="number"
+        android:layout_margin="16dp"
+        >
+
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/tvResult"
+        android:text="your result will appear here"
+        android:layout_marginTop="25dp"
+        >
+
+    </TextView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCalculate"
+        android:textAllCaps="false"
+        android:text="Calculate"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        >
+
+    </Button>
+
+
+
+</LinearLayout>

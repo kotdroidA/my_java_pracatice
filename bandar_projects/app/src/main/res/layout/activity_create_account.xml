@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_an_account"
+        android:textSize="26sp"
+        android:textColor="#000000"
+        android:textStyle="normal"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="80dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Name"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:textStyle="normal"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:padding="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_corner_grey_bg"
+
+
+
+
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email address"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:textStyle="normal"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:padding="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_corner_grey_bg"
+
+
+
+
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:textStyle="normal"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:padding="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_corner_grey_bg"
+
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Creating an account means you agree to the Terms and  Conditions and Privacy Policy"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:textStyle="normal"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:layout_margin="40dp"
+        android:padding="16dp"
+        android:text="Create an account "
+        android:textAllCaps="false"
+
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Already have an account?Login"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:textStyle="normal"
+            android:gravity="center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>

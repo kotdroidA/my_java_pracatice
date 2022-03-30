@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#2D3238"
+    android:gravity="center"
+    android:padding="16dp"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:padding="16dp"
+        android:background="#3C4147"
+        android:layout_width="match_parent"
+        android:hint="Full Name"
+        android:textColorHint="@color/white"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:textColorHint="@color/white"
+        android:hint="Email"
+        android:background="#3C4147"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:inputType="textPassword"
+        android:background="#3C4147"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:textColorHint="@color/white"
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:backgroundTint="#EA4C89"
+        android:textAllCaps="true"
+        android:text="Register"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Already Registered! Login Me."
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

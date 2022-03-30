@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2196F3"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        android:background="#27FFFFFF"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notification"
+            android:textColor="#000000"
+            android:drawableStart="@drawable/ic_left_arrow"
+            android:textSize="18sp"
+            android:drawablePadding="16dp"
+            android:textStyle="normal"
+            android:layout_marginStart="10dp"
+
+
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="200dp"
+            android:src="@drawable/ic_more"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Conversation tones"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="16dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="play sounds for incoming and outgoing \n message"
+                android:textColor="#000000"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="16dp"
+
+                />
+
+        </LinearLayout>
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="80dp"
+
+            />
+
+
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:layout_marginTop="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Message"
+            android:textSize="10sp"
+            android:textStyle="normal"
+            android:textColor="#F05EAF4C"
+            android:layout_margin="16dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notification tone"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="16dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Default (WaterDrop_preview.ogg)"
+            android:textSize="10sp"
+            android:textStyle="normal"
+            android:textColor="#000000"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="16dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vibrate"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:textColor="#000000"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="16dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Default"
+            android:textSize="10sp"
+            android:textStyle="normal"
+            android:textColor="#000000"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="16dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Popup notification \n not available"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="normal"
+            android:textSize="10sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Light"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:textColor="#000000"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="16dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="White"
+            android:textSize="10sp"
+            android:textStyle="normal"
+            android:textColor="#000000"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="16dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Use high priority notifications"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="16dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Show previews of notification at the tap of the \n screen"
+                android:textColor="#000000"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="16dp"
+
+                />
+
+        </LinearLayout>
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="80dp"
+
+            />
+
+
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:layout_marginTop="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Groups"
+            android:textSize="10sp"
+            android:textStyle="normal"
+            android:textColor="#F066AF4C"
+            android:layout_margin="16dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notification tone"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="16dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Default (WaterDrop_preview.ogg)"
+            android:textSize="10sp"
+            android:textStyle="normal"
+            android:textColor="#000000"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="16dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vibrate"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:textColor="#000000"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="16dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Default"
+            android:textSize="10sp"
+            android:textStyle="normal"
+            android:textColor="#000000"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="16dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Light"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:textColor="#000000"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="16dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="White"
+            android:textSize="10sp"
+            android:textStyle="normal"
+            android:textColor="#000000"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="16dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+

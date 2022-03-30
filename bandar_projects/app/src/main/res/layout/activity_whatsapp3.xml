@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2196F3"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#5EFFFFFF"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:drawableStart="@drawable/ic_left_arrow"
+                android:drawablePadding="16dp"
+                android:text="Privacy"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="normal"
+
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Who can see my personal info"
+            android:textSize="10sp"
+            android:textStyle="normal"
+            android:textColor="#F05EAF4C"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="If you don't share your Last Seen you won't be able to see other \n people's Last Seen"
+            android:textSize="10sp"
+            android:textStyle="normal"
+            android:textColor="#000000"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="16dp"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Seen"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="16dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="everyone"
+        android:textSize="10sp"
+        android:textStyle="normal"
+        android:textColor="#000000"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="16dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile photo"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="16dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="my contacts"
+        android:textSize="10sp"
+        android:textStyle="normal"
+        android:textColor="#000000"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="16dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="16dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="my contacts"
+        android:textSize="10sp"
+        android:textStyle="normal"
+        android:textColor="#000000"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="16dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="16dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="my contacts"
+        android:textSize="10sp"
+        android:textStyle="normal"
+        android:textColor="#000000"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="16dp"
+        />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Read receipts"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="16dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="If turned off.you won't send or receive Read \n receipts.Read receipts are always sent for group \n"
+            android:textColor="#000000"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="16dp"
+
+            />
+
+    </LinearLayout>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="80dp"
+
+        />
+
+</LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Groups"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="16dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="everyone"
+        android:textSize="10sp"
+        android:textStyle="normal"
+        android:textColor="#000000"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="16dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Live location"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="16dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="none"
+        android:textSize="10sp"
+        android:textStyle="normal"
+        android:textColor="#000000"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="16dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blocked contacts"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="16dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textSize="10sp"
+        android:textStyle="normal"
+        android:textColor="#000000"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="16dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fingerprint lock"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="16dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disable"
+        android:textSize="10sp"
+        android:textStyle="normal"
+        android:textColor="#000000"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="16dp"
+        />
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
+
+
+
+
+
+
+
+
